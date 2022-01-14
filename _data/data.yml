@@ -76,7 +76,7 @@ projects:
       - project:
         title: DataRobot AI Apps
         link: https://www.datarobot.com/platform/ai-apps/
-        tagline: I was Data Science Competency Lead and eventually interim Team Lead for DataRobot's >a href="https://www.datarobot.com/platform/no-code-ai-app-builder/"><b>Automated Applications</b></a> team.
+        tagline: I was Data Science Competency Lead and eventually interim Team Lead for DataRobot's <a href="https://www.datarobot.com/platform/no-code-ai-app-builder/"><b>Automated Applications</b></a> team.
       - project:
         title: MNE-Python
         link: "https://www.martinos.org/mne/stable/index.html"
