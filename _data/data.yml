@@ -71,7 +71,7 @@ projects:
     projects:
       - project:
         title: ContagionNET
-        link: https://contagion.net/
+        link: https://patents.google.com/patent/US20230051833A1/en
         tagline: I led the modelling team for the <a href="https://www.datarobot.com/blog/contagionnet-wins-innovation-award/"><b>award-winning</b></a> ContagionNET project, forecasting and optimizing the efficacy of a rapid antigen testing apporach to combatting COVID-19.
       - project:
         title: DataRobot AI Apps
