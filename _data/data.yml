@@ -81,6 +81,9 @@ projects:
         title: MNE-Python
         link: https://www.martinos.org/mne/stable/index.html
         tagline: "I am a core contributor to MNE-Python, a free and open analysis suite for EEG and MEG data in Python. I am primarily working on visualisation and statistics."
+      - project:
+        title: Assorted data analysis
+        tagline: I still enjoy the ocassional data analysis side project, such as looking at <a href="decarbonization.html"><b>succesful and unsuccesful decarbonisation strategies in the EU</b></a>.
 
 
 publications:
@@ -99,7 +102,6 @@ publications:
         title: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25151545">Single-trial analyses reveal that the late EEG positivity following linguistically deviant material is reaction time aligned.</a>
         authors: "Jona Sassenhagen, Matthias Schlesewsky & Ina Bornkessel-Schlesewsky"
         notes: 'This paper is perhaps the <a href="https://web.archive.org/web/20190810211235/http://blogs.discovermagazine.com/neuroskeptic/2013/02/03/unilaterally-raising-the-scientific-standard/#.XU8zRy-l3RY"><b>first</b></a> pre-registered basic neuroimaging paper. I have been <a href="https://web.archive.org/web/20190702021449/http://blogs.discovermagazine.com/neuroskeptic/2013/03/23/more-on-preregistration/"><b>interviewed by the incomparable Neuroskeptic</b></a> over this.'
-
 
 footer: 
     text: 'Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> for developers'
