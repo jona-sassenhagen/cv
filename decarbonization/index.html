@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Decarbonizing the EU's Electricity</title>
+<meta name="author" content="Jona Sassenhagen">
 <style>
 body {
   font-family: "Georgia", serif;
@@ -52,12 +53,33 @@ body {
 <body>
 
 <h1>Decarbonizing the EU's Electricity: What Has Worked, What Hasn't</h1>
+<p style="font-style: italic; margin-top: -1rem; margin-bottom: 2rem;">Jona Sassenhagen</p>
 
 <p>Here's a look at how the EU's countries fulfill their energy requirements (hover over/tap on chart elements for extra info):</p>
 
-<iframe id="desktop-chart" src="stacked_desktop.html" style="border:none;width:100%;height:825px;"></iframe>
+<div id="chart-container"></div>
 
-<iframe id="mobile-chart" src="stacked_mobile.html" style="border:none;width:100%;height:1200px;"></iframe>
+<script>
+  function loadChart() {
+    var container = document.getElementById('chart-container');
+    var iframe = document.createElement('iframe');
+    iframe.style.border = 'none';
+    iframe.style.width = '100%';
+    iframe.style.height = '825px'; // default desktop height
+    iframe.scrolling = 'no';
+
+    if (window.innerWidth <= 800) {
+      iframe.src = 'stacked_mobile.html';
+      iframe.style.height = '1200px'; // mobile height
+    } else {
+      iframe.src = 'stacked_desktop.html';
+    }
+
+    container.appendChild(iframe);
+  }
+
+  window.addEventListener('load', loadChart);
+</script>
 
 <style>
   #mobile-chart {
@@ -102,10 +124,12 @@ fossils, obviously, because they emit carbon, and wind and solar because they re
 <p>Up to this point, EU countries that have successfully lowered emissions 
 of their energy generation have done so with either 1. nuclear power, 2. hydro power, or 3. a combination of the above. 
 (As Czechia and Bulgaria show, it's not enough to have nuclear power, one has to also <em>turn off the coal!)</em> 
+To visualise this, try this: click on the legend entries to disable energy sources. If you disable Wind, Solar and
+Fossils, you will see that the top 7 lowest emitters all exceede 60% from low-carbon dispatchable sources.
 That is not to say it will never be possible for the EU to decarbonize without low-carbon dispatchables; just
 that so far, it hasn't happened.</p>
 
-<p>The striking exception is Denmark, at around 100 grams of CO₂ per kWh. In fact, it is the _only_
+<p>The striking exception is Denmark, at around 100 grams of CO₂ per kWh. In fact, it is the <em>only</em>
 country in the EU deriving more than 50% of its energy from intermittent renewables: no other EU country has let its share
 of dispatchable energy drop below 50%. Slightly more than half of Denmark's energy consumption
 is covered by wind, plus some solar. It imports clean energy from Sweden and Norway and dirty energy from
