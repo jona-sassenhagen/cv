@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Decarbonizing the EU's Electricity</title>
+<style>
+body {
+  font-family: "Georgia", serif;
+  margin: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  line-height: 1.6;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  color: black;
+  transition: background 0.3s, color 0.3s;
+}
+  h1, h2, h3 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    margin-top: 2rem;
+  }
+  iframe {
+  border: none;
+  width: 100%;
+  height: auto;
+  margin: 1rem 0;
+  padding: 0;
+}
+  a {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Dark mode */
+  @media (prefers-color-scheme: dark) {
+    body {
+      background: #121212;
+      color: #e0e0e0;
+    }
+    a {
+      color: #8ab4f8;
+    }
+  }
+</style>
+</head>
+<body>
+
+<h1>Decarbonizing the EU's Electricity: What Has Worked, What Hasn't</h1>
+
+<p>Here's a look at how the EU's countries fulfill their energy requirements (hover over/tap on chart elements for extra info):</p>
+
+<iframe id="desktop-chart" src="stacked_desktop.html" style="border:none;width:100%;height:825px;"></iframe>
+
+<iframe id="mobile-chart" src="stacked_mobile.html" style="border:none;width:100%;height:1200px;"></iframe>
+
+<style>
+  #mobile-chart {
+    display: none;
+  }
+  
+  @media (max-width: 800px) {
+    #desktop-chart {
+      display: none;
+    }
+    #mobile-chart {
+      display: block;
+    }
+  }
+</style>
+
+<p>It's a lot to take in! On the left, we have the electricity mix, including imports. Each row represents a country,
+each colored segment one source of energy. Included are net imports (some countries, such as France or Sweden,
+are heavy exporters of surplus energy). On the right there are two "costs" of electricity:
+energy prices private households pay (in $ per kilowatt hour), and emissions (in grams of CO₂ per kilowatt hour).
+Countries are sorted by emissions intensity, with the cleanest electricity at the bottom.</p>
+
+<p>Sweden and Finland lead the pack, powered by their nuclear power plants (at 30–40% of electricity
+generation) and hydro power (at 40% and 15–20%, respectively). France, lacking these Nordic countries' hydro potential,
+relies even more heavily on nuclear power, at 70% of generation. Moreover, France and Sweden are major <em>exporters</em>
+of energy, providing their neighbors with low-carbon energy in times of need!
+On the other extreme, the two largest emitters of CO₂ emissions are, in absolute terms, 
+Poland and Germany. Poland stands at around 65% fossil fuels, mostly coal;
+Germany at around 35%, roughly evenly split between lignite, hard coal, and natural gas. (Why is Estonia so dirty? 
+They burn a lot of oil shale, a fossil fuel even more polluting than coal.)</p>
+
+<p>Among the countries with emissions below the EU's average
+(~150g of CO₂ per kWh), there is just one which doesn't have at least 50%
+of its energy coming from a combination of three types 
+of <a href="https://en.wikipedia.org/wiki/Dispatchable_generation" target="_blank">dispatchable</a> low-carbon energy: nuclear power, 
+non-variable renewables such as hydro and biomass, and imports (which aren't technically a dispatchable
+energy generation form, but fulfill the same purpose in a grid: energy on tap without local emissions).
+Low-carbon non-dispatchable renewables like wind and solar (also called intermittent renewables), and high-carbon
+fossil fuels, don't seem to provide a particularly viable strategy for decarbonization;
+fossils, obviously, because they emit carbon, and wind and solar because they require dispatchable backup.</p>
+
+<p>Up to this point, EU countries that have successfully lowered emissions 
+of their energy generation have done so with either 1. nuclear power, 2. hydro power, or 3. a combination of the above. 
+(As Czechia and Bulgaria show, it's not enough to have nuclear power, one has to also <em>turn off the coal!)</em> 
+That is not to say it will never be possible for the EU to decarbonize without low-carbon dispatchables; just
+that so far, it hasn't happened.</p>
+
+<p>The striking exception is Denmark, at around 100 grams of CO₂ per kWh. In fact, it is the _only_
+country in the EU deriving more than 50% of its energy from intermittent renewables: no other EU country has let its share
+of dispatchable energy drop below 50%. Slightly more than half of Denmark's energy consumption
+is covered by wind, plus some solar. It imports clean energy from Sweden and Norway and dirty energy from
+Germany, but imports cover only around 10% of its needs. On the other hand, Danes pay 
+<a href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Electricity_price_statistics" target="_blank">some of the highest
+prices for their electricity</a>, often in a tight race to the bottom between similarly expensive Ireland and Germany; 
+around double that of the other Nordic countries.</p>
+
+<iframe src="grid.html"  style="border:none;width:100%;height:600px;" scrolling="no"></iframe>
+
+<p></p>Looking at the trade-off between low-cost and low-carbon electricity, Ireland and Germany, together with
+Italy and Czechia, have picked the "worst of all worlds" option—expensive and dirty. And it's not just a local
+problem: German coal power plants, which today generate about the same amount of electricity as Germany's 
+nuclear fleet did at its peak, <a href="https://env-health.org/IMG/pdf/dark_cloud-full_report_final.pdf" target="_blank">
+kill about the same number of people</a>—mostly Germans, but also Poles and Frenchmen—as the 
+Chernobyl catastrophe did, every single year.</p>
+
+</body>
+</html>
