@@ -83,7 +83,7 @@ projects:
         tagline: "I am a core contributor to MNE-Python, a free and open analysis suite for EEG and MEG data in Python. I am primarily working on visualisation and statistics."
       - project:
         title: Assorted data analysis
-        tagline: I still enjoy the ocassional data analysis side project, such as looking at <a href="_data/decarbonization.html"><b>succesful and unsuccesful decarbonisation strategies in the EU</b></a>.
+        tagline: I still enjoy the ocassional data analysis side project, such as looking at <a href="decarbonization/"><b>succesful and unsuccesful decarbonisation strategies in the EU</b></a>.
 
 
 publications:
