@@ -72,7 +72,7 @@ projects:
       - project:
         title: ContagionNET
         link: https://patents.google.com/patent/US20230051833A1/en
-        tagline: I led the modelling team for the <a href="https://www.datarobot.com/blog/contagionnet-wins-innovation-award/"><b>award-winning</b></a> ContagionNET project, forecasting and optimizing the efficacy of a rapid antigen testing apporach to combatting COVID-19.
+        tagline: I led the modelling team for the <a href="https://www.datarobot.com/blog/contagionnet-wins-innovation-award/"><b>award-winning</b></a> ContagionNET project, forecasting and optimizing the efficacy of a rapid antigen testing approach to combatting COVID-19.
       - project:
         title: DataRobot AI Apps
         link: https://www.datarobot.com/
@@ -86,7 +86,7 @@ projects:
         tagline: I still enjoy the ocassional data analysis side project, such as looking at <a href="decarbonization/"><b>succesful and unsuccesful decarbonisation strategies in the EU</b></a>.
       - project:
         title: Various vibe coded web apps
-        tagline: <a href="https://jona-sassenhagen.github.io/a_breach_to_the_past/"><b>A little "what if Zelda met Into the Breach" game.</b>. And: <a href="https://jona-sassenhagen.github.io/should_i_burn_wood_or_not/><b>it's cold, should I burn wood or use my heating system?</b>
+        tagline: "<a href='https://jona-sassenhagen.github.io/a_breach_to_the_past/'><b>A little 'what if Zelda met Into the Breach' game.</b></a> And: <a href='https://jona-sassenhagen.github.io/should_i_burn_wood_or_not/'><b>it's cold, should I burn wood or use my heating system?</b></a>"
 
 
 publications:
