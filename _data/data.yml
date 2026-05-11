@@ -35,7 +35,9 @@ sidebar:
         - interest:
           item: Hiking with my children
           link:
-
+        - interest:
+          item: Playing guitar at church
+          link:
 
 career-profile: 
     title: Career Profile
